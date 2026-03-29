@@ -17,12 +17,12 @@ function renderHeader(currentPage = 'index') {
     return `
     <header class="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-md border-b border-[#b2945e]/10 px-6 py-4">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <a href="index.html" class="text-2xl font-serif font-bold text-[#716329] tracking-tighter">IROHA</a>
+            <a href="/" class="text-2xl font-serif font-bold text-[#716329] tracking-tighter">IROHA</a>
             <nav class="hidden md:flex gap-8 text-sm font-medium" aria-label="メインナビゲーション">
-                <a href="index.html#service" class="hover:text-[#716329] transition-colors">Service</a>
-                <a href="index.html#flow" class="hover:text-[#716329] transition-colors">flow</a>
-                <a href="index.html#voice" class="hover:text-[#716329] transition-colors">Voice</a>
-                <a href="index.html#faq" class="hover:text-[#716329] transition-colors">FAQ</a>
+                <a href="/#service" class="hover:text-[#716329] transition-colors">Service</a>
+                <a href="/#flow" class="hover:text-[#716329] transition-colors">flow</a>
+                <a href="/#voice" class="hover:text-[#716329] transition-colors">Voice</a>
+                <a href="/#faq" class="hover:text-[#716329] transition-colors">FAQ</a>
             </nav>
             <button id="menu-toggle" class="md:hidden p-2 text-gray-600" aria-label="メニューを開く" aria-expanded="false">
                 <span id="menu-icon-open">${ICONS.menu}</span>
@@ -30,10 +30,10 @@ function renderHeader(currentPage = 'index') {
             </button>
         </div>
         <nav id="mobile-menu" class="md:hidden fixed top-[73px] left-0 right-0 bg-white border-b border-[#b2945e]/10 px-6 py-8 flex flex-col gap-6 shadow-xl closed">
-            <a href="index.html#service" class="text-lg font-medium hover:text-[#716329]">Service</a>
-            <a href="index.html#flow" class="text-lg font-medium hover:text-[#716329]">flow</a>
-            <a href="index.html#voice" class="text-lg font-medium hover:text-[#716329]">Voice</a>
-            <a href="index.html#faq" class="text-lg font-medium hover:text-[#716329]">FAQ</a>
+            <a href="/#service" class="text-lg font-medium hover:text-[#716329]">Service</a>
+            <a href="/#flow" class="text-lg font-medium hover:text-[#716329]">flow</a>
+            <a href="/#voice" class="text-lg font-medium hover:text-[#716329]">Voice</a>
+            <a href="/#faq" class="text-lg font-medium hover:text-[#716329]">FAQ</a>
         </nav>
     </header>
     `;
@@ -54,9 +54,9 @@ function renderFooter() {
             </div>
 
             <nav class="flex flex-wrap justify-center gap-x-8 gap-y-4 text-xs mb-10 border-t border-white/10 pt-8" aria-label="フッターナビゲーション">
-                <a href="privacy.html" class="underline underline-offset-4 hover:no-underline">プライバシーポリシー</a>
-                <a href="tokushoho.html" class="underline underline-offset-4 hover:no-underline">特商法取引に基づく表記</a>
-                <a href="terms.html" class="underline underline-offset-4 hover:no-underline">利用規約</a>
+                <a href="/privacy" class="underline underline-offset-4 hover:no-underline">プライバシーポリシー</a>
+                <a href="/tokushoho" class="underline underline-offset-4 hover:no-underline">特商法取引に基づく表記</a>
+                <a href="/terms" class="underline underline-offset-4 hover:no-underline">利用規約</a>
             </nav>
 
             <p class="text-[10px] text-white/60 tracking-widest">©IROHA All rights reserved.</p>
