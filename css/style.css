@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #5bbd86;
+    --bg-light: #fff9f6;
+    --accent-pink: #f8bbd0;
+    --gold: #b2945e;
+    --highlight-pink: #e91e63;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    font-family: 'Shippori Mincho', 'Noto Serif JP', serif;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.btn-hover {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-hover:hover {
+    transform: translateY(-2px) scale(1.02);
+}
+
+.bg-marble {
+    background-image: url('https://www.transparenttextures.com/patterns/marble-art.png');
+    background-color: var(--bg-light);
+}
+
+a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 4px;
+}
+
+#mobile-menu {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+#mobile-menu.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#mobile-menu.closed {
+    transform: translateY(-10px);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease;
+}
+
+.faq-content.open {
+    max-height: 500px;
+}
+
+.faq-trigger:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: -2px;
+}
+
+footer a {
+    transition: opacity 0.3s ease;
+}
+
+footer svg {
+    display: inline-block;
+    vertical-align: middle;
+}
