@@ -70,7 +70,7 @@ function renderPolicyPage() {
                     `).join('')}
                 </div>
                 <div class="mt-16 text-center">
-                    <a href="index.html" class="inline-flex items-center gap-2 text-[#b2945e] font-bold hover:underline">
+                    <a href="/" class="inline-flex items-center gap-2 text-[#b2945e] font-bold hover:underline">
                         ${ICONS.arrowRight} トップページへ戻る
                     </a>
                 </div>
