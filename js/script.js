@@ -138,7 +138,7 @@ function renderApp() {
                             ${latestNews ? latestNews.content.replace(/<br>/g, ' ') : '現在お知らせはありません。'}
                         </p>
                         <div class="text-right">
-                            <a href="news.html" class="inline-flex items-center gap-2 text-[#e91e63] font-bold hover:translate-x-1 transition-transform" aria-label="お知らせ一覧ページへ移動する">
+                            <a href="/news" class="inline-flex items-center gap-2 text-[#e91e63] font-bold hover:translate-x-1 transition-transform" aria-label="お知らせ一覧ページへ移動する">
                                 お知らせ一覧を見る ${typeof ICONS !== 'undefined' ? ICONS.arrowRight : '→'}
                             </a>
                         </div>
@@ -163,7 +163,7 @@ function renderApp() {
                         <p class="text-gray-600 leading-loose mb-8">
                         「誰かのお世話をしている人、誰かを癒している人を癒したい」という想いで、IROHA（いろは）サロン開店。
                         </p>
-                        <a href="profile.html" class="inline-flex items-center gap-2 text-[#e91e63] font-bold hover:translate-x-1 transition-transform">
+                        <a href="/profile" class="inline-flex items-center gap-2 text-[#e91e63] font-bold hover:translate-x-1 transition-transform">
                             詳しくはこちら ${ICONS.arrowRight}
                         </a>
                     </div>
