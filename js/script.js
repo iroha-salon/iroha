@@ -18,14 +18,14 @@ const contentData = {
         name: "オプションマッサージ", 
         desc: "ヘッド、デコルテ、上半身など重点的にケアします。", 
         fullDesc: "辛い部位やお悩みにあわせて、ヘッド、デコルテ、上半身、下半身（フット）をそれぞれ集中して施術します。",
-        img: "image/service2.jpg" 
+        img: "/image/service2.jpg" 
         },
         { 
         type: "Body Care", 
         name: "出張サービス", 
         desc: "小さいお子様がいらっしゃるなど、外出できない方向けに出張ヒーリングを承ります。", 
         fullDesc: "小さいお子様がいらっしゃるなど、外出できない方向けに出張ヒーリングを承ります。<br><br>【お子様と一緒に受けられます】<br>・お子様が嫌がらないようでしたら、お子様を抱っこしていただき、一緒にレイキヒーリングを受けられます。<br>・リラックス状態のお母様から自然にお子様にエネルギーが伝わり、お子様もリラックスします。<br>・お母様だけの施術ですと、落ち着かないお子様もいらっしゃいますが、その場合、一緒に受けることで相乗効果が得られます。<br>※別途、お子様分の費用が発生することはありません。",
-        img: "image/service3.jpg" 
+        img: "/image/service3.jpg" 
         }
     ],
     menu: [
@@ -96,7 +96,7 @@ function renderApp() {
                         </p>
                     </div>
                     <div class="reveal">
-                        <img src="image/concept1.jpg" class="rounded-lg w-full h-auto" alt="Concept 1">
+                        <img src="/image/concept1.jpg" class="rounded-lg w-full h-auto" alt="Concept 1">
                     </div>
                 </div>
                 <div class="grid md:grid-cols-2 mb-8 lg:gap-4 items-center">
@@ -109,7 +109,7 @@ function renderApp() {
                         </p>
                     </div>
                     <div class="reveal">
-                        <img src="image/concept2.jpg" class="rounded-lg w-full h-auto" alt="Concept 1">
+                        <img src="/image/concept2.jpg" class="rounded-lg w-full h-auto" alt="Concept 1">
                     </div>
                 </div>
                 <div class="grid md:grid-cols-2 mb-8 lg:gap-4 items-center">
@@ -122,7 +122,7 @@ function renderApp() {
                         </p>
                     </div>
                     <div class="reveal">
-                        <img src="image/concept3.jpg" class="rounded-lg w-full h-auto" alt="Concept 1">
+                        <img src="/image/concept3.jpg" class="rounded-lg w-full h-auto" alt="Concept 1">
                     </div>
                 </div>
             </section>
@@ -156,7 +156,7 @@ function renderApp() {
                     </div>
                 <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
                     <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl reveal">
-                        <img src="image/profile.jpg" alt="代表：千田美佐子" class="w-full h-full object-cover">
+                        <img src="/image/profile.jpg" alt="代表：千田美佐子" class="w-full h-full object-cover">
                     </div>
                     <div class="flex-1 reveal">
                         <h3 class="text-2xl md:text-3xl font-bold mb-4">千田美佐子</h3>
@@ -228,7 +228,7 @@ function renderApp() {
                     <div class="space-y-16">
                         <div class="flex flex-col md:flex-row-reverse items-center gap-8 reveal">
                             <div class="w-full md:w-1/2">
-                                <img src="image/flow1.jpg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="カウンセリング">
+                                <img src="/image/flow1.jpg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="カウンセリング">
                             </div>
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-xl font-bold text-[#e91e63] mb-4 border-b-2 border-[#e91e63] inline-block pb-1">1. カウンセリング</h3>
@@ -238,7 +238,7 @@ function renderApp() {
 
                         <div class="flex flex-col md:flex-row-reverse items-center gap-8 reveal">
                             <div class="w-full md:w-1/2">
-                                <img src="image/flow2.jpg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="足浴">
+                                <img src="/image/flow2.jpg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="足浴">
                             </div>
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-xl font-bold text-[#e91e63] mb-4 border-b-2 border-[#e91e63] inline-block pb-1">2. 足浴</h3>
@@ -248,7 +248,7 @@ function renderApp() {
 
                         <div class="flex flex-col md:flex-row-reverse items-center gap-8 reveal">
                             <div class="w-full md:w-1/2">
-                                <img src="image/flow3.jpeg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="施術">
+                                <img src="/image/flow3.jpeg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="施術">
                             </div>
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-xl font-bold text-[#e91e63] mb-4 border-b-2 border-[#e91e63] inline-block pb-1">3. 施術</h3>
@@ -258,7 +258,7 @@ function renderApp() {
 
                         <div class="flex flex-col md:flex-row-reverse items-center gap-8 reveal">
                             <div class="w-full md:w-1/2">
-                                <img src="image/flow4.jpeg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="お身体の確認">
+                                <img src="/image/flow4.jpeg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="お身体の確認">
                             </div>
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-xl font-bold text-[#e91e63] mb-4 border-b-2 border-[#e91e63] inline-block pb-1">4. お身体の確認</h3>
