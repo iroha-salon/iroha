@@ -76,7 +76,7 @@ function renderApp() {
                 <div class="absolute inset-0 bg-black/20"></div>
                 <div class="relative z-10 text-center text-white px-6">
                     <h2 class="text-3xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">${contentData.hero.title}</h2>
-                    <p class="text-lg md:text-2xl mb-10 font-light tracking-widest">${contentData.hero.sub}</p>
+                    <p class="mb-10 font-light tracking-widest">${contentData.hero.sub}</p>
                     <a href="https://misako168.stores.jp/reserve/1222iroha/1176606" class="btn-hover inline-block bg-[#e91e63] text-white px-10 py-4 rounded-full text-lg font-bold inline-flex items-center gap-2 hover:translate-x-1 transition-transform" aria-label="予約ページへ移動する"">
                         ご予約はこちらから ${typeof ICONS !== 'undefined' ? ICONS.arrowRight : '→'}
                     </a>
