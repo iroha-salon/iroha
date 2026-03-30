@@ -217,7 +217,7 @@ function renderApp() {
                             </button>
                         `).join('')}
                     </div>
-                    <div class="mt-12 p-6 bg-[#fffaf0] rounded-xl border-l-4 border-[#e91e63] reveal">
+                    <div class="mt-12 p-6 bg-[#fffaf0] rounded-xl reveal">
                         <h5 class="text-[#e91e63] font-bold mb-2 flex items-center gap-2">
                             キャンセルポリシー
                         </h5>
