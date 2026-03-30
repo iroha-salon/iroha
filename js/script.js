@@ -217,6 +217,14 @@ function renderApp() {
                             </button>
                         `).join('')}
                     </div>
+                    <div class="mt-12 p-6 bg-[#fffaf0] rounded-xl border-l-4 border-[#e91e63] reveal">
+                        <h5 class="text-[#e91e63] font-bold mb-2 flex items-center gap-2">
+                            キャンセルポリシー
+                        </h5>
+                        <p class="text-sm text-gray-600 leading-loose">
+                            予約のキャンセルは、予約日の前日17時までにお願いします。無断キャンセルや当日キャンセルには、予約料金の全額を請求することがあります。
+                        </p>
+                    </div>
                 </div>
             </section>
 
