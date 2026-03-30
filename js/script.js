@@ -238,7 +238,7 @@ function renderApp() {
 
                         <div class="flex flex-col md:flex-row-reverse items-center gap-8 reveal">
                             <div class="w-full md:w-1/2">
-                                <img src="/image/flow3.jpg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="足浴">
+                                <img src="/image/flow3.jpeg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="足浴">
                             </div>
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-xl font-bold text-[#e91e63] mb-4 border-b-2 border-[#e91e63] inline-block pb-1">2. 足浴</h3>
@@ -248,7 +248,7 @@ function renderApp() {
 
                         <div class="flex flex-col md:flex-row-reverse items-center gap-8 reveal">
                             <div class="w-full md:w-1/2">
-                                <img src="/image/flow2.jpeg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="施術">
+                                <img src="/image/flow2.jpg" class="rounded-2xl shadow-sm w-full h-64 object-cover" alt="施術">
                             </div>
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-xl font-bold text-[#e91e63] mb-4 border-b-2 border-[#e91e63] inline-block pb-1">3. 施術</h3>
