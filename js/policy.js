@@ -1,6 +1,6 @@
 // --- Policy Content Data ---
 const policyData = {
-    '/privacy': {
+    '/privacy/': {
         en: "Privacy Policy",
         jp: "プライバシーポリシー",
         sections: [
@@ -15,7 +15,7 @@ const policyData = {
             { title: "9. お問い合わせについて", content: "当サイトの個人情報の取扱に関するお問い合せは、<a href='https://lin.ee/Ofst5Om' class='hover:opacity-70 transition-opacity' aria-label='LINE'><span>公式LINE</span></a>または<a href='mailto:pooh335pooh@gmail.com' class='hover:opacity-70 transition-opacity' aria-label='メール'><span>メール</span></a>よりご連絡ください。" }
         ]
     },
-    '/tokushoho': {
+    '/tokushoho/': {
         en: "Legal Notice",
         jp: "特商法に基づく表記",
         sections: [
@@ -31,7 +31,7 @@ const policyData = {
             { title: "10. その他注意事項", content: "アロマセラピーの施術時には、アロマオイルのアレルギーがないか事前に確認させていただきます。" },
         ]
     },
-    '/terms': {
+    '/terms/': {
         en: "Terms of Service",
         jp: "利用規約",
         sections: [
