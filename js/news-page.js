@@ -95,9 +95,9 @@ window.changePage = function(page) {
     }
 };
 
-// news.html 読み込み時に実行
+// news読み込み時に実行
 document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.includes('news.html')) {
+    if (window.location.pathname.includes('/news')) {
         renderNewsPage();
     }
 });
