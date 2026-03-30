@@ -3,7 +3,7 @@ const contentData = {
     hero: {
         title: "誰かのお世話をする<br>人を癒すためのサロン",
         sub: "神奈川のレイキサロン＆アロマセラピー",
-        img: "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=1200&q=80"
+        img: "/image/top.jpg"
     },
     services: [
         { 
